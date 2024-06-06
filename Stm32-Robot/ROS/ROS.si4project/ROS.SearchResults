@@ -1,0 +1,7 @@
+---- max_rpm_ Matches (10 in 2 files) ----
+Kinematics::Kinematics in Kinematics.cpp (Driver) :   max_rpm_ = motor_max_rpm;
+Kinematics::calculateRPM in Kinematics.cpp (Driver) :     rpm.motor1 = constrain(rpm.motor1, -max_rpm_, max_rpm_);
+Kinematics::calculateRPM in Kinematics.cpp (Driver) :     rpm.motor2 = constrain(rpm.motor2, -max_rpm_, max_rpm_);
+Kinematics::calculateRPM in Kinematics.cpp (Driver) :     rpm.motor3 = constrain(rpm.motor3, -max_rpm_, max_rpm_);
+Kinematics::calculateRPM in Kinematics.cpp (Driver) :     rpm.motor4 = constrain(rpm.motor4, -max_rpm_, max_rpm_);
+Kinematics in Kinematics.h (Driver) :     int max_rpm_;
